@@ -109,5 +109,3 @@ Personage.prototype.pointStyle = {
 document.personage = new Personage ( {
       routePoints: document.routePoints
 })
-console.log ( document.personage )
-console.log ( '__proto__', document.personage.__proto__ )
