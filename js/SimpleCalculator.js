@@ -110,8 +110,10 @@ function showCalculator () {
 SimpleCalculator.prototype.containerStyle = {
     position: "fixed",
     bottom: "50px",
-    left: "50px",
-    width: "320px"
+    right: "50px",
+    width: "320px",
+    zIndex: "500",
+    boxShadow: "10px 10px 20px #00000090"
 }
 SimpleCalculator.prototype.inputStyle = {
     float: "left",
