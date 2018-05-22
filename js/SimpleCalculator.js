@@ -121,9 +121,8 @@ SimpleCalculator.prototype.inputStyle = {
     padding: "4px 8px"
 }
 SimpleCalculator.prototype.numStyle = {
-    color: "blue",
+    color: "darkblue",
     float: "left",
-    borderRadius: "4px",
     outline: "none",
     width: "20%",
     height: "40px"
