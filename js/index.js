@@ -92,8 +92,7 @@ Personage.prototype.personageStyle = {
     top: 0,
     left: 0,
     width: "50px",
-    height: "auto",
-    border: "solid 1px red"
+    height: "auto"
 }
 Personage.prototype.pointStyle = {
 		position: "fixed",
@@ -104,8 +103,7 @@ Personage.prototype.pointStyle = {
     backgroundRepeat: "no-repeat",
     backgroundSize: "contain",
     backgroundPosition: "center center",
-    backgroundImage: "url(" + this.defaultPointImage + ")",
-    border: "solid 1px red"
+    backgroundImage: "url(" + this.defaultPointImage + ")"
 }
 
 document.personage = new Personage ( {
