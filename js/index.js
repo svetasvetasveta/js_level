@@ -84,8 +84,8 @@ Personage.prototype.mc_personage = function ( event ) {
 Personage.prototype.defaultRoute = [
 		[ 50, 50 ], [ 300, 300 ], [ 100, 300 ], [ 200, 50 ]
 ]
-Personage.prototype.defaultPersonageImage = "http://i.imgur.com/uohQTdJ.gif"
-Personage.prototype.defaultPointImage = "http://image.fg-a.com/flowers-animated/4-palm-tree-4.gif"
+Personage.prototype.defaultPersonageImage = "../images/personage.gif"
+Personage.prototype.defaultPointImage = "../images/tree.gif"
 
 Personage.prototype.personageStyle = {
 		position: "fixed",
