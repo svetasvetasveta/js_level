@@ -1,6 +1,6 @@
-document.routePoints = [
+ document.routePoints = [
 [ 50, 50 ], [ 300, 300 ], [ 100, 300 ], [ 200, 100 ]
-
+// 1
 ]
 
 var Personage = function ( params ) {
@@ -85,9 +85,11 @@ Personage.prototype.mc_personage = function ( event ) {
 Personage.prototype.defaultRoute = [
 		[ 50, 50 ], [ 300, 300 ], [ 100, 300 ], [ 200, 50 ]
 ]
+
+
 Personage.prototype.defaultPersonageImage = "./images/14981180607.gif"
 Personage.prototype.defaultPointImage = "./images/48484_myshka.gif"
-
+//2,3
 Personage.prototype.personageStyle = {
 		position: "fixed",
     top: 0,
@@ -108,12 +110,19 @@ Personage.prototype.pointStyle = {
 }
 
 
-var x = document.createElement 'button'
-document.body.appendChild(x)
-x.innerHTML="click"
-
-
-
+var s= document.createElement("button")
+document.body.appendChild(s)
+s.innerHTML = "on"
+s.onclick =function(){
 document.personage = new Personage ( {
       routePoints: document.routePoints
 })
+}
+//3
+var t = document.createElement("button")
+document.body.appendChild(t)
+t.innerHTML = "off"
+t.onclick= function(){
+ clearInterval (new Personage)
+}
+//4
